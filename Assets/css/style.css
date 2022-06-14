@@ -20,22 +20,23 @@
   }
   
   body {
-    background-image: url(https://ak.picdn.net/shutterstock/videos/292750/thumb/1.jpg);
+    background-image: url(https://th.bing.com/th/id/R.29aebf126f2f1a3843b4320806fb3145?rik=wEcDvA6V0HtPtA&riu=http%3a%2f%2fwww.paperhi.com%2fdownload%2fview%3fresolution%3d2560x1440%26file%3dMTkyMHgxMDgwLzIwMTMwMzE0L3Byb2dyYW1taW5nIHBjIGNvZGUgYXJ0d29yayAxOTIweDEwODAgd2FsbHBhcGVyX3d3dy5wYXBlcmhpLmNvbV8zNS5qcGc%3d%26name%3dcHJvZ3JhbW1pbmdfcGNfY29kZV9hcnR3b3JrXzE5MjB4MTA4MF93YWxscGFwZXI%3d&ehk=zdaFWFAoca77MuRT%2fmVZQBLA8QxYSa%2fO0Lx3%2fyvswMI%3d&risl=&pid=ImgRaw&r=0);
     background-size: cover;
     background-blend-mode: hard-light;
     font-family: "Lucida Sans", sans-serif;
     color: black;
     font-weight: bold;
     padding: 40px;
+    width: 100%;
 }
   /* header section */
   
   header {
     color: rgb(45, 45, 212);
-    background-image: url(https://th.bing.com/th/id/OIP.9h2YDs6xMAjmtlmd8RZTCAHaBj?pid=ImgDet&rs=1);
+    background-image: url(https://th.bing.com/th/id/R.7869929cfc0ea8f7e7910ba1c3393683?rik=njLFgsvSBOcJuw&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fRz5dV4s.jpg&ehk=ZIZoSSEjwxPNxJbtUZYw6IO7jqNJ%2fVodKHW8CllN0ZM%3d&risl=&pid=ImgRaw&r=0);
     background-size: cover;
     border: solid;
-    border-color: black;
+    border-color: yellowgreen;
     font-size: x-large;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 200;
@@ -46,11 +47,11 @@
 
 
   header img {
-    height: 400px;
-    width: 220px;
+    height: 350px;
+    width: 200px;
     border: solid;
-    border-color: black;
-    float: left;
+    border-color: yellowgreen;
+    float: right;
     flex: auto;
   }
   
@@ -117,16 +118,16 @@
     flex-wrap: nowrap;
     text-align: center;
     border: solid;
-    border-color: black;
+    border-color: yellowgreen;
     
 }
 
   .portflio-section {
 
-    flex: auto;
+    flex: content;
     position: relative;
-    padding-left: 350px;
     font-size: x-large;
+    color: whitesmoke;
     
   }
   
@@ -151,7 +152,7 @@
     width: 30%;
     margin: 5px;
     border-radius: 14px;
-    border: 4px solid black;
+    border: 4px solid yellowgreen;
     background-color: #393b4f;
     font-size: 22px;
     font-weight: bold;
@@ -176,8 +177,8 @@
     /* pushes element to bottom of flex item */
     margin-top: auto;
     width: 100%;
-    background-color: #a8adba;
-    color: #393b4f;
+    background-color: rgb(125, 125, 230);
+    color: darkgreen;
     padding: 10px 5px;
     text-align: center;
   }
@@ -220,10 +221,13 @@
     background-image: url("https://www.ecommercethesis.com/wp-content/uploads/2019/12/Contact-Me.png");
     background-size: cover;
     background-position: center;
-    border: solid black;
+    border: solid yellowgreen;
     color: black;
     font-size: large;
     text-align: center;
+    flex: content;
+    position: relative;
+    flex-wrap: nowrap;
     
     
   }
