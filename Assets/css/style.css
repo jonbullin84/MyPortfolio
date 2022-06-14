@@ -1,6 +1,6 @@
-/* Styling start here*/
+/* Styling*/
 
-/*Consoladate css this time which was feed back from previous challenge */
+
 * {
     box-sizing: border-box;
   }
@@ -12,7 +12,7 @@
     display: table;
   }
   
-  /* mbile display */
+  /* mobile display */
   [class*="col-"] {
     float: left;
     padding: 15px;
@@ -26,21 +26,28 @@
     font-family: "Lucida Sans", sans-serif;
     color: black;
     font-weight: bold;
+    padding: 40px;
 }
   /* header section */
   
   header {
-    color: black;
-    padding: 40px
-    display: inline;
-    text-align: right;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(45, 45, 212);
+    background-image: url(https://th.bing.com/th/id/OIP.9h2YDs6xMAjmtlmd8RZTCAHaBj?pid=ImgDet&rs=1);
+    background-size: cover;
+    border: solid;
+    border-color: black;
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 200;
+    padding-left: 600px
+    text-align: left;
+    flex: auto;
   }
 
 
   header img {
     height: 400px;
-    width: 250px;
+    width: 220px;
     border: solid;
     border-color: black;
     float: left;
@@ -50,7 +57,7 @@
   header nav {
     float: right;
     margin: 7px 0;
-    text-align: right;
+    text-align: left;
     position: relative;
   }
 
@@ -108,7 +115,7 @@
     background-size: cover;
     background-position: center;
     flex-wrap: nowrap;
-    text-align: Left;
+    text-align: center;
     border: solid;
     border-color: black;
     
@@ -116,21 +123,24 @@
 
   .portflio-section {
 
-    flex-direction: column;
+    flex: auto;
+    position: relative;
+    padding-left: 350px;
+    font-size: x-large;
+    
   }
   
   .portflio-section h2 {
     position: relative;
     top: 30px;
+    text-align: center;
   }
   
   /* flex parent */
   .flex-container {
     /* create flexbox */
     display: flex;
-    /*break onto next line if it runs out of space */
     flex-wrap: wrap;
-    /* put all unused space between items */
     justify-content: space-between;
     width: 100%;
   }
@@ -208,11 +218,14 @@
   
   .contact-section {
     background-image: url("https://www.ecommercethesis.com/wp-content/uploads/2019/12/Contact-Me.png");
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
     border: solid black;
     color: black;
     font-size: large;
-    justify-content: space-between;
+    text-align: center;
+    
+    
   }
   
   .contact-section h2 {
@@ -291,4 +304,3 @@
     }
   }
   
-  /* Styling end here */
