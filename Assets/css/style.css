@@ -5,20 +5,6 @@
     box-sizing: border-box;
   }
   
-  /*tablet display */
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  
-  /* mobile display */
-  [class*="col-"] {
-    float: left;
-    padding: 15px;
-    flex-direction: column-reverse;
-  }
-  
   body {
     background-image: url(https://th.bing.com/th/id/R.29aebf126f2f1a3843b4320806fb3145?rik=wEcDvA6V0HtPtA&riu=http%3a%2f%2fwww.paperhi.com%2fdownload%2fview%3fresolution%3d2560x1440%26file%3dMTkyMHgxMDgwLzIwMTMwMzE0L3Byb2dyYW1taW5nIHBjIGNvZGUgYXJ0d29yayAxOTIweDEwODAgd2FsbHBhcGVyX3d3dy5wYXBlcmhpLmNvbV8zNS5qcGc%3d%26name%3dcHJvZ3JhbW1pbmdfcGNfY29kZV9hcnR3b3JrXzE5MjB4MTA4MF93YWxscGFwZXI%3d&ehk=zdaFWFAoca77MuRT%2fmVZQBLA8QxYSa%2fO0Lx3%2fyvswMI%3d&risl=&pid=ImgRaw&r=0);
     background-size: cover;
@@ -32,7 +18,7 @@
   /* header section */
   
   header {
-    color: rgb(45, 45, 212);
+    color: rgb(63, 184, 33);
     background-image: url(https://th.bing.com/th/id/R.7869929cfc0ea8f7e7910ba1c3393683?rik=njLFgsvSBOcJuw&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fRz5dV4s.jpg&ehk=ZIZoSSEjwxPNxJbtUZYw6IO7jqNJ%2fVodKHW8CllN0ZM%3d&risl=&pid=ImgRaw&r=0);
     background-size: cover;
     border: solid;
@@ -44,7 +30,9 @@
     flex: auto;
   }
 
-
+ header h1{
+ margin-left: 20px;
+}
   header img {
     height: 350px;
     width: 200px;
@@ -59,8 +47,9 @@
     margin: 7px 0;
     text-align: left;
     position: relative;
-    background-color: aqua;
+    background-color: rgb(63, 184, 33);
     width: fit-content;
+    margin-left: 30px;
   }
 
   header nav ul li {
@@ -77,7 +66,6 @@
   
   /* guide */
   .guide ul {
-    list-style-type: none;
     margin: 0;
     padding: 0;
   }
@@ -235,7 +223,20 @@
     font-size: 30px;
     color: aliceblue;
   }
-  
+    /*tablet display */
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    /* mobile display */
+    [class*="col-"] {
+      float: left;
+      padding: 15px;
+      flex-direction: column-reverse;
+    }
+    
 
     /* For mobile phones: */
     [class*="col-"] {
@@ -254,10 +255,6 @@
     }
   }
   
-  @media only screen and (min-width: 768px) {
-    /* For desktop: */
-
-  }
 
   @media only screen and (min-width: 1722px) {
     .container {
